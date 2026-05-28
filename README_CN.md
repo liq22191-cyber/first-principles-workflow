@@ -1,8 +1,8 @@
 # 第一性原理工作流 / First Principles Workflow
 
-> AI 编程助手通用协作技能：强制 **想清楚再动手**、**只做该做的**、**验到位才说完成**。
+> Claude Code / Codex 等主流 AI 编程助手通用协作技能：强制 **想清楚再动手**、**只做该做的**、**验到位才说完成**。
 >
-> A universal AI coding assistant skill that enforces: **think before you build**, **build only what's needed**, **prove it works before you call it done**.
+> A disciplined collaboration skill for Claude Code, Codex, and other AI coding assistants: **think before you build**, **build only what's needed**, **prove it works before you call it done**.
 
 ---
 
