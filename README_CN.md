@@ -1,8 +1,8 @@
 # 第一性原理工作流 / First Principles Workflow
 
-> Claude Code 技能：强制 **想清楚再动手**、**只做该做的**、**验到位才说完成**。
+> AI 编程助手通用协作技能：强制 **想清楚再动手**、**只做该做的**、**验到位才说完成**。
 >
-> A Claude Code skill that forces: **think before you build**, **build only what's needed**, **prove it works before you call it done**.
+> A universal AI coding assistant skill that enforces: **think before you build**, **build only what's needed**, **prove it works before you call it done**.
 
 ---
 
@@ -33,14 +33,27 @@
 
 ## 适用于哪些人？
 
-- **非程序员**——用 Claude Code 但受够了拿到的代码跑不起来
+- **非程序员**——用 AI 编程工具但受够了拿到的代码跑不起来
 - **独立开发者**——不想让 AI 过度设计，只想快速交付
 - **团队协作者**——希望 AI 助手的输出稳定、可预期
-- **所有人**——只要说过类似"Claude，这不是我要的""你怎么没测就交"之类的话
+- **所有人**——只要说过类似"这不是我要的""你怎么没测就交"之类的话
 
 ---
 
-## 解决方案：5 阶段纪律工作流
+## 怎么用？
+
+### Claude Code
+
+```bash
+git clone https://github.com/liq22191-cyber/first-principles-workflow.git \
+  ~/.claude/skills/first-principles-workflow
+```
+
+### 其他 AI 编程工具（Cursor / Windsurf / Copilot 等）
+
+将 `SKILL.md`（英文）或 `SKILL_CN.md`（中文）的内容复制到你的项目规则文件（如 `.cursorrules`、`.windsurfrules`、`CLAUDE.md`），或直接设为全局规则。
+
+**中文用户**把 `SKILL_CN.md` 重命名为 `SKILL.md` 覆盖原文件即可切换。
 
 每项任务必须经过五道硬性门禁，没有例外。
 
@@ -87,7 +100,7 @@
 ## 安装
 
 ```bash
-# 克隆到你的 Claude Code skills 目录
+# 克隆到你的 skills 目录
 git clone https://github.com/liq22191-cyber/first-principles-workflow.git \
   ~/.claude/skills/first-principles-workflow
 ```
@@ -100,7 +113,7 @@ git clone https://github.com/liq22191-cyber/first-principles-workflow.git \
 
 ```
 first-principles-workflow/
-├── SKILL.md              # 英文版技能（Claude Code 自动加载）
+├── SKILL.md              # 英文版技能（主文件）
 ├── SKILL_CN.md           # 中文版（重命名为 SKILL.md 即可使用）
 ├── references/
 │   └── compliance-checklist.md  # 12 维度法律合规检查清单
@@ -110,9 +123,9 @@ first-principles-workflow/
 
 ## 为什么叫"第一性原理"？
 
-因为大多数问题都源于**没有质疑假设**。"加个登录"不是需求——"用户需要访问自己的数据"才是。这个技能强制 Claude 找到每个请求背后的真正需求，然后只做最简单有效的实现。
+因为大多数问题都源于**没有质疑假设**。"加个登录"不是需求——"用户需要访问自己的数据"才是。这个技能强制 AI 助手找到每个请求背后的真正需求，然后只做最简单有效的实现。
 
-因为大多数问题都源于**没有质疑假设**。"加个登录"不是需求——"用户需要访问自己的数据"才是。这个技能强制 Claude 找到每个请求背后的真正需求，然后只做最简单有效的实现。
+因为大多数问题都源于**没有质疑假设**。"加个登录"不是需求——"用户需要访问自己的数据"才是。这个技能强制 AI 助手找到每个请求背后的真正需求，然后只做最简单有效的实现。
 
 ---
 

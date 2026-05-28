@@ -5,7 +5,7 @@ description: This skill should be used when the user asks to "create a feature",
 
 # First Principles Workflow
 
-A disciplined collaboration workflow that ensures every task is done right the first time: clarify intent, think from first principles, build only what's needed, self-test thoroughly, then report.
+A universal disciplined collaboration workflow for AI coding assistants. Ensures every task is done right the first time: clarify intent, think from first principles, build only what's needed, self-test thoroughly, then report. Works with Claude Code, Cursor, Windsurf, GitHub Copilot, and any AI-powered development tool.
 
 ## The Chain
 
